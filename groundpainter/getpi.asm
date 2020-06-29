@@ -2,7 +2,7 @@
 // Return pi                                                  //
 //------------------------------------------------------------//
 .func painterGetPi
-	lui	    v0, 0x4049
-	jr	    ra
-	addiu	v0, v0, 0x0FDB
+    lui     v0, 0x4049
+    jr      ra
+    addiu   v0, v0, 0x0FDB
 .endfunc

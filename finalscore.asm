@@ -14,22 +14,22 @@
     b       @@recalculateFinalTournamentScoreEnd
     li      t0, 0
 @@recalculate:
-	lw	    t0, currentCourseNumber
-	sll	    t1, t0, 0x2
-	lui	    t2, hi(modTable + 2)
-	addu	t2, t2, t1
-	lb	    v0, lo(modTable + 2)(t2)
-	addu	v1, v0, r0
-	slt	    v0, v1, s1
+    lw      t0, currentCourseNumber
+    sll     t1, t0, 0x2
+    lui     t2, hi(modTable + 2)
+    addu    t2, t2, t1
+    lb      v0, lo(modTable + 2)(t2)
+    addu    v1, v0, r0
+    slt     v0, v1, s1
     li      t0, 1
-	beql	v0, r0, @@scoreTooLow
-	addu	s1, v1, r0
+    beql    v0, r0, @@scoreTooLow
+    addu    s1, v1, r0
 @@scoreTooLow:
-	slti	v0, s1, scoreLowerLimit
-	beq	    v0, r0, @@scoreInRange
-	slti	v0, s1, scoreUpperLimit + 1
-	j	    @@recalculateFinalTournamentScoreEnd
-	addiu	s1, r0, scoreLowerLimit
+    slti    v0, s1, scoreLowerLimit
+    beq     v0, r0, @@scoreInRange
+    slti    v0, s1, scoreUpperLimit + 1
+    j       @@recalculateFinalTournamentScoreEnd
+    addiu   s1, r0, scoreLowerLimit
 @@scoreInRange:
     beql    v0, r0, @@recalculateFinalTournamentScoreEnd
     li      s1, scoreUpperLimit
