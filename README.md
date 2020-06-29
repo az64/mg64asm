@@ -10,3 +10,5 @@ To build, use the armips assembler: https://github.com/Kingcom/armips
 OR
 
 * Run `armips build.asm` to create binary files for each piece of code
+
+Note that everything included will be enabled by default in the resulting patched ROM. This is controlled in `hackenabletable.asm`. These flags are intended to be controlled via an (currently undeveloped) external program post-patching.
