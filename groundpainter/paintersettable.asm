@@ -169,7 +169,7 @@ painterSetTable:
 
 // Deep rough
     painterSetSettings typeWasteArea, 1, patternTypeNone, 0, 0, 0, 0
-    painterSetColours 0xE5D3, 1, 1, 1, 1, 1, 1, 1
+    painterSetColours 0xE5D2, 1, 1, 1, 1, 1, 1, 1
 
 // Green
     painterSetSettings typeNone, 4, patternTypeCheckers, 1, 1, 0, 0
@@ -177,7 +177,7 @@ painterSetTable:
 
 // OB
     painterSetSettings typeNone, 1, patternTypeNone, 0, 0, 0, 0
-    painterSetColours 0xD6A7, 1, 1, 1, 1, 1, 1, 1
+    painterSetColours 0xD6A6, 1, 1, 1, 1, 1, 1, 1
 
 // Tee ground
     painterSetSettings typeNone, 1, patternTypeNone, 0, 0, 0, 0
