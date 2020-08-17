@@ -448,7 +448,7 @@ painterSetTable:
     painterSetColours 0x055F, 1, 1, 1, 1, 1, 1, 1
 
 // Green edge
-    painterSetSettings typeGreen, 1, patternTypeNone, 0, 0, 0, 0
+    painterSetSettings typeFairway, 1, patternTypeNone, 0, 0, 0, 0
     painterSetColours 0x4C73, 1, 1, 1, 1, 1, 1, 1
 
 // Semi-rough
@@ -484,7 +484,7 @@ painterSetTable:
     painterSetColours 0x7B81, 1, 1, 1, 1, 1, 1, 1
 
 // Green
-    painterSetSettings typeNone, 2, patternTypeCheckers, 3, 7, 0, 0
+    painterSetSettings typeCartway, 2, patternTypeCheckers, 3, 7, 0, 0
     painterSetColours 0xDC60, 1, 0xCE72, 1, 1, 1, 1, 1
 
 // OB
@@ -500,7 +500,7 @@ painterSetTable:
     painterSetColours 0x7B81, 1, 1, 1, 1, 1, 1, 1
 
 // Green edge
-    painterSetSettings typeGreen, 1, patternTypeNone, 0, 0, 0, 0
+    painterSetSettings typeCartway, 1, patternTypeNone, 0, 0, 0, 0
     painterSetColours 0xDC61, 1, 1, 1, 1, 1, 1, 1
 
 // Semi-rough
@@ -604,7 +604,7 @@ painterSetTable:
     painterSetColours 0x055F, 1, 1, 1, 1, 1, 1, 1
 
 // Green edge
-    painterSetSettings typeGreen, 1, patternTypeNone, 0, 0, 0, 0
+    painterSetSettings typeFairway, 1, patternTypeNone, 0, 0, 0, 0
     painterSetColours 0x4C73, 1, 1, 1, 1, 1, 1, 1
 
 // Semi-rough
@@ -640,7 +640,7 @@ painterSetTable:
     painterSetColours 0x7B81, 1, 1, 1, 1, 1, 1, 1
 
 // Green
-    painterSetSettings typeNone, 2, patternTypeCheckers, 3, 7, 0, 0
+    painterSetSettings typeCartway, 2, patternTypeCheckers, 3, 7, 0, 0
     painterSetColours 0xDC60, 1, 0xCE72, 1, 1, 1, 1, 1
 
 // OB
@@ -656,7 +656,7 @@ painterSetTable:
     painterSetColours 0x7B81, 1, 1, 1, 1, 1, 1, 1
 
 // Green edge
-    painterSetSettings typeGreen, 1, patternTypeNone, 0, 0, 0, 0
+    painterSetSettings typeCartway, 1, patternTypeNone, 0, 0, 0, 0
     painterSetColours 0xDC61, 1, 1, 1, 1, 1, 1, 1
 
 // Semi-rough
