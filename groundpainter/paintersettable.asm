@@ -356,7 +356,7 @@ painterSetTable:
 //------------------------------------------------------------//
 
 // Fairway
-    painterSetSettings typeNone, 1, patternTypeNone, 0, 0, 0, 0
+    painterSetSettings typeOb, 1, patternTypeNone, 0, 0, 0, 0
     painterSetColours 0x2689, 1, 1, 1, 1, 1, 1, 1
 
 // Rough
@@ -408,7 +408,7 @@ painterSetTable:
 //------------------------------------------------------------//
 
 // Fairway
-    painterSetSettings typeNone, 1, patternTypeNone, 0, 0, 0, 0
+    painterSetSettings typeOb, 1, patternTypeNone, 0, 0, 0, 0
     painterSetColours 0x2689, 1, 1, 1, 1, 1, 1, 1
 
 // Rough
@@ -512,7 +512,7 @@ painterSetTable:
 //------------------------------------------------------------//
 
 // Fairway
-    painterSetSettings typeNone, 1, patternTypeNone, 0, 0, 0, 0
+    painterSetSettings typeOb, 1, patternTypeNone, 0, 0, 0, 0
     painterSetColours 0x2689, 1, 1, 1, 1, 1, 1, 1
 
 // Rough
@@ -564,7 +564,7 @@ painterSetTable:
 //------------------------------------------------------------//
 
 // Fairway
-    painterSetSettings typeNone, 1, patternTypeNone, 0, 0, 0, 0
+    painterSetSettings typeOb, 1, patternTypeNone, 0, 0, 0, 0
     painterSetColours 0x2689, 1, 1, 1, 1, 1, 1, 1
 
 // Rough
